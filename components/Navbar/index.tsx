@@ -8,6 +8,7 @@ const NavBar = () => (
             <Link href="/example-server-side-rendering">SSR</Link>
             <Link href="/example-client-side-rendering">CSR</Link>
             <Link href="/example-static-generation-with-data">STATIC</Link>
+            <Link href="https://github.com/PabloSuarez/nextjs-examples">GitHub Code</Link>
         </nav>
     </header>
 );

@@ -2,12 +2,18 @@
   display: flex;
   color: white;
   justify-content: center;
-  background-color: lightslategrey;
+  background-color: black;
   height: 80px;
   align-items: center;
 }
 
 .header a {
+  border-bottom: solid 5px black;
   font-size: 30px;
   margin: 5px 20px;
+  transition: all 100ms;
+}
+
+.header a:hover {
+  border-color: white;
 }

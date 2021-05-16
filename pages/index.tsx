@@ -14,12 +14,14 @@ const Home = () => {
 
       <MainContainer>
         <MainTitle>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a target="_blank" href="https://nextjs.org">Next.js!</a>
         </MainTitle>
 
         <P>
-          Pablo Suarez{' '}
-          <Code>NextJS/examples</Code>
+          <a target="_blank" href="https://github.com/PabloSuarez/nextjs-examples">
+            Pablo Suarez{' '}
+            <Code>NextJS/examples</Code>
+          </a>
         </P>
 
         <GridContainer>
@@ -35,9 +37,9 @@ const Home = () => {
             <h2>Client side Rendering &rarr;</h2>
             <div>The HTML is generated on client side.</div>
           </HomeCard>
-          <HomeCard urlLink={'https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'}>
-            <h2>API &rarr;</h2>
-            <div>How implement an API in NextJs to serve data.</div>
+          <HomeCard urlLink={'https://nextjs.org/docs/api-reference/create-next-app'}>
+            <h2>Create Next App &rarr;</h2>
+            <div>npx create-next-app <br /> yarn create next-app</div>
           </HomeCard>
         </GridContainer>
       </MainContainer>
